@@ -3,8 +3,6 @@
 #
 #	Utilities to handle UMLS
 #
-#	2013-01-01	Created by Pascal Pfiffner
-#	2014-01-20	Extracted and converted to Python 3
 #
 
 

@@ -3,7 +3,6 @@
 #
 #	SNOMED import utilities, extracted from umls.py
 #
-#	2014-01-20	Created by Pascal Pfiffner
 #
 
 import sys

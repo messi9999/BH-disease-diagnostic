@@ -2,7 +2,6 @@
 #
 #	Simplifying SQLite access
 #
-#	2012-12-14	Created by Pascal Pfiffner
 #
 
 

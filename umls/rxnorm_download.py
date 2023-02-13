@@ -31,16 +31,16 @@ def download_rxnorm(args):
     try:
         bytes = int(zip_request.info().getheader('Content-Length'))
     except:
-        print "Failed to download file. Check your credentials."
+        print ("Failed to download file. Check your credentials.")
         sys.exit(1)
 
     with open(args.file, "wb") as outfile:
         while zip_request.tell() < bytes:
             outfile.write(zip_request.read(size=CHUNK_SIZE))
             read = zip_request.tell()
-            print "\rDownload:  %.2f%% of %sMB"%(
-                    read * 100.0 / bytes,
-                    bytes / 1000000),
+            # print ("\rDownload:  %.2f%% of %sMB"%
+            #         read * 100.0 / bytes,
+            #         bytes / 1000000),
 
     print("Extracting zip")
     with zipfile.ZipFile(args.file) as zf:

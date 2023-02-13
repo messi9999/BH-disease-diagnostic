@@ -3,7 +3,6 @@
 #
 #	RxNorm unit testing
 #
-#	2014-04-18	Created
 
 import sys
 import os.path

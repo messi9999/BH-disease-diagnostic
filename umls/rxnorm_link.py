@@ -5,8 +5,6 @@
 #	`rxnorm_link_run.sh` to store these dictionaries into a JSON database. See
 #	that script for parameters to change.
 #
-#	2012-09-28	Created by Josh Mandel
-#	2014-02-10	Stolen by Pascal Pfiffner
 #
 #	For profiling: pycallgraph graphviz -- rxnorm_link.py
 

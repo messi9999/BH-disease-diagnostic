@@ -4,7 +4,6 @@
 #	Draw an RxNorm graph for a given RxCUI.
 #	You must have "dot" installed (Graphviz)
 #
-#	2014-02-18	Created by Pascal Pfiffner
 
 import sys
 import subprocess

@@ -3,7 +3,6 @@
 #
 #	Graphable objects for fun
 #
-#	2014-02-18	Created by Pascal Pfiffner
 
 import os
 import uuid
